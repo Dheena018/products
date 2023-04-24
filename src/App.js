@@ -7,7 +7,7 @@ import Login from "./pages/Login/login";
 import Home from "./pages/home/home";
 import Cart from "./pages/cart/cart";
 import PRODUCTS from "./products";
-
+import SignIn from "./components/Sign in/signin";
 const App = ()=>{
     
     const [cart,setCart]= useState([]);
@@ -25,6 +25,7 @@ const App = ()=>{
             <Route path="/cart" element={<Cart cart={cart}/>}></Route>
             <Route path="/shop" element={<Shop PRODUCTS={PRODUCTS} adddToCart={addToCart}/>}></Route>
             <Route path="/contact" element={<Contact />}></Route>
+            <Route path="/signin" element={<SignIn />}></Route>
             </Route>
         </Routes>
     )

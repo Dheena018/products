@@ -1,16 +1,17 @@
 // import PRODUCTS from "../../products";
 // import Images from '../../section';
 import './shop.css';
+import uuid from 'react-uuid';
 
 
 const Shop = ({PRODUCTS,adddToCart})=>{
     return(
         <div className="shop-contain">
            {PRODUCTS.map((productItem,productIndex)=>{
-            return(
+            return( 
                 <div className="shop-container-fluid">
                     <div className="shop-images">
-                        <img src={productItem.images[1]} alt="pic" className='product-image'/>
+                        <img src={productItem.images[1]} key={uuid} alt="pic" className='product-image'/>
                     </div>
                     <div className="shop-other-container">
                         <h2 className="product-title">{productItem.title}</h2>

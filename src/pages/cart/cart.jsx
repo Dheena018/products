@@ -61,11 +61,10 @@ const Cart = ({cart})=>{
                     console.log(cartItem);
                     const dummyCart = CART;
                     const _CART = dummyCart.filter((item, index)=>{
-                        return cartIndex !== index
-                    })
+                        return cartIndex !== index                   })
                     setCART(_CART)
                 }}
-                ><i class="fa-solid fa-rectangle-xmark"></i></button>
+                >delete</button>
               </div>
             );
         })
