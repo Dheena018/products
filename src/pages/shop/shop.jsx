@@ -14,8 +14,8 @@ const Shop = ({PRODUCTS,adddToCart})=>{
                     </div>
                     <div className="shop-other-container">
                         <h2 className="product-title">{productItem.title}</h2>
-                        <p className="product-para">{productItem.price}</p>
-                        <span className="product-span">{productItem.rating}</span>
+                        <p className="product-para">$ {productItem.price}</p>
+                        <span className="product-span">⭐⭐⭐⭐{productItem.rating}</span>
                     </div>
                     <div className="btn-one-container">
                         <button className="btn-btn"

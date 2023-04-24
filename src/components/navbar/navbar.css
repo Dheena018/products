@@ -16,6 +16,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+
 }
 .nav-title-container{
     margin-right: 50px;
@@ -36,7 +38,6 @@ font-size: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .search{
     width: 100%;

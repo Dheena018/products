@@ -65,7 +65,7 @@ const Cart = ({cart})=>{
                     })
                     setCART(_CART)
                 }}
-                >delete</button>
+                ><i class="fa-solid fa-rectangle-xmark"></i></button>
               </div>
             );
         })
