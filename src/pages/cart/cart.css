@@ -1,0 +1,39 @@
+.cart{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 1rem;
+    flex-direction: column;
+}
+
+
+
+.cart-container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 1rem;
+    border: 2px solid black;
+}
+.cart-img{
+    width: 100px;
+    height: auto;
+}
+.cart-first-span{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cart-btn-one{
+    padding:5px 1rem;
+    text-align: center;
+}
+.cart-quantity{
+    font-size: 25px;
+    font-weight: bold;
+}
+.cart-part{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: end;
+}

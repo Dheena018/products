@@ -1,0 +1,9 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading p{
+    text-align: center;
+    cursor: pointer;
+}
