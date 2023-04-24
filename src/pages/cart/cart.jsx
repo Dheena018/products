@@ -56,7 +56,15 @@ const Cart = ({cart})=>{
                 <span className="cart-quantity">
                   $ {cartItem.price * cartItem.quantity}
                 </span>
-                <button className="cart-btn-one"
+                <button className="cart-btn-one" onClick={(cartItem)=>{
+                    // let item1 = cartItem;
+                    console.log(cartItem);
+                    const dummyCart = CART;
+                    const _CART = dummyCart.filter((item, index)=>{
+                        return cartIndex !== index
+                    })
+                    setCART(_CART)
+                }}
                 >delete</button>
               </div>
             );
